@@ -1,8 +1,7 @@
 import { useEffect, useState } from "react"
 
-const Input = () => {
+const Input = ({matrix, setM}) => {
     const [size, setSize] = useState({col: 3, row: 3})
-    const [matrix, setM ] = useState([[1, '', ''], [], []])
     const onSizeChange = e =>{
         if(e.target.value<0) return
         const s = {...size}
