@@ -2,7 +2,7 @@
 
 Find nullspace of a matrix
 
-# Open: [Nullspace Calculator](https:nullspace.netlify.app)
+## Open: [Nullspace Calculator](https://nullspace.netlify.app)
 
 ### `npm start`
 
